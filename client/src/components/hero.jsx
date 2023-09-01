@@ -31,7 +31,7 @@ const Hero = () => {
 
   return (
     <>
-        <div id="home" className="realative py-32 pt-48 w-full my-auto bg-slate-100">
+        <div id="home" className="realative py-32 pt-36 md:pt-48 w-full my-auto bg-slate-100">
             <div className="container md:ps-36">
                 <div className="grid lg:grid-cols-2 gap-8">
                     <div className='order-last md:order-1 grid gap-6 text-center md:text-start justify-center'>
