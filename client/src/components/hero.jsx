@@ -35,7 +35,7 @@ const Hero = () => {
             <div className="container md:ps-36">
                 <div className="grid lg:grid-cols-2 gap-8">
                     <div className='order-last md:order-1 grid gap-6 text-center md:text-start justify-center'>
-                        <h2 className="text-6xl font-bold font-sans lg:pt-4">Blockchain Solidity<br/>Developer</h2>
+                        <h2 className="text-6xl font-bold font-sans lg:pt-4">Fullstack Blockchain<br/>Developer</h2>
                         <p className="text-lg text-[#555]">Hi, I'm Sajadh S. A Blockchain Solidity Developer based in Kerala, India.</p>
                         <div className="flex gap-4 justify-center md:justify-start">
                             <a target='_blank' href="https://www.linkedin.com/in/sajadh-s-916964215/" className="hover:text-blue-500 transition duration-300 cursor-pointer"><LinkedInIcon style={{fontSize:'40px'}}/></a>
