@@ -10,6 +10,8 @@ import node from '../assets/node-js-icon.svg';
 import tailwind from '../assets/tailwind.svg';
 import nextjs from '../assets/nextjs-icon.svg';
 import vite from '../assets/vite.svg';
+import ethers from '../assets/ethersjs.svg';
+import hardhat from '../assets/hardhat.svg';
 
 
 
@@ -18,6 +20,8 @@ const Hero = () => {
  
     const Techstack = [
         {name: solidity, href:"https://soliditylang.org/"}, 
+        {name: hardhat, href:"https://hardhat.org/"},
+        {name: ethers, href:"https://ethers.org/"},
         {name: nextjs, href:"https://nextjs.org/"}, 
         {name: vite, href:"https://vitejs.dev/"}, 
         {name: mongo, href:"https://www.mongodb.com/"}, 
