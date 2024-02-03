@@ -1,0 +1,29 @@
+@keyframes border-radius-animation {
+    0% {
+      border-radius: 52% 48% 42% 58% / 57% 72% 28% 43%;
+    }
+    50% {
+      border-radius: 30% 70% 50% 50% / 50% 50% 30% 70%;
+    }
+    100% {
+      border-radius: 52% 48% 42% 58% / 57% 72% 28% 43%;
+    }
+  }
+  
+  .animate-border-radius {
+    animation: border-radius-animation 4s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .spin {
+    animation: spin 30s linear infinite;
+  }
+  
