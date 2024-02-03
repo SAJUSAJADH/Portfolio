@@ -36,8 +36,8 @@ const Hero = () => {
         className="realative py-32 pt-44 md:pt-48 w-full my-auto bg-slate-100"
       >
         <div className="container mx-auto md:px-12">
-          <div className="grid lg:grid-cols-2 gap-8">
-            <div className="order-last lg:order-1 grid gap-6 text-center md:text-start justify-center">
+          <div className="grid lg:grid-cols-5 gap-8">
+            <div className="order-last lg:order-1 lg:col-span-3 grid gap-6 text-center md:text-start justify-center">
               <h2 className="text-6xl font-bold font-sans lg:pt-4">
                 Fullstack Blockchain
                 <br />
@@ -76,7 +76,7 @@ const Hero = () => {
                 </a>
               </div>
             </div>
-            <div className="md:order-2 grid justify-center">
+            <div className="md:order-2 lg:col-span-2 grid justify-center">
               <div className="w-72 h-72  flex items-center">
                 <img
                   className="w-72 h-72 animate-border-radius"
@@ -86,13 +86,13 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="grid lg:grid-cols-4 gap-8 xl:px-16 pt-20">
+          <div className="grid lg:grid-cols-4 gap-8 xl:px-44 pt-20">
             <div className="flex justify-center lg:justify-start items-center">
               <p className="text-[#2d2e32] text-lg font-semibold">
                 Tech Stack |{" "}
               </p>
             </div>
-            <div className="lg:col-span-3 grid grid-cols-3 lg:grid-cols-5 lg:w-3/4 gap-6 mx-auto lg:mx-0">
+            <div className="lg:col-span-3 grid grid-cols-3 lg:grid-cols-5  gap-6 mx-auto lg:mx-0">
               {Techstack.map((tech, index) => (
                 <a key={index} target="_blank" href={tech.href}>
                   <div
