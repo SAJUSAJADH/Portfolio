@@ -3,8 +3,17 @@ import carrental from "../assets/carrental2.jpeg";
 import chainpay from "../assets/chainpay.png";
 import technoobs from "../assets/technoobs.png";
 import nextswap from "../assets/nextswap.png";
+import evotechain from "../assets/evotechain.jpeg";
 
 export const projects = [
+ {
+    image: evotechain,
+    title: "Evotechain 🗳️ - [NextJS , Ethereum]",
+    desc: "Evotechain is a decentralized application that enables secure, transparent, and convenient voting processes.",
+    tech: ["NEXTjs", "ETHEREUM"],
+    github: "https://github.com/SAJUSAJADH/E-Voting-Frontend",
+    demo: "https://evotechain.vercel.app/",
+  },
   {
     image: nextswap,
     title: "Nextswap 💲 - [NextJS , Ethereum]",
