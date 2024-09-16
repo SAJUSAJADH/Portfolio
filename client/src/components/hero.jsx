@@ -14,9 +14,14 @@ import ethers from "../assets/ethersjs.svg";
 import hardhat from "../assets/hardhat.svg";
 import arrow from "../assets/arrow.svg";
 import resume from "../assets/03022024.pdf";
+import ethereum from "../assets/ethereum.webp"
+import python from "../assets/python.png"
+import ai from "../assets/ai.png"
 
 const Hero = () => {
   const Techstack = [
+    { name: ethereum, href: "https://ethereum.org/en/" },
+    { name: ai, href: "https://ai.com/" },
     { name: solidity, href: "https://soliditylang.org/" },
     { name: hardhat, href: "https://hardhat.org/" },
     { name: ethers, href: "https://ethers.org/" },
@@ -26,6 +31,7 @@ const Hero = () => {
     { name: express, href: "https://expressjs.com/" },
     { name: reactjs, href: "https://react.dev/" },
     { name: node, href: "https://nodejs.org/en" },
+    { name: python, href: "https://python.org/en" },
     { name: tailwind, href: "https://tailwindcss.com/" },
   ];
 
