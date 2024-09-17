@@ -21,6 +21,7 @@ export default function Projects() {
               <motion.div
                 key={index}
                 variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+                className="flex justify-center"
               >
                 <Tilt
                   options={{
