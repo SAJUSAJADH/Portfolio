@@ -17,6 +17,8 @@ import resume from "../assets/03022024.pdf";
 import ethereum from "../assets/ethereum.webp"
 import python from "../assets/python.png"
 import ai from "../assets/ai.png"
+import expo from "../assets/expo.png"
+import typescript from "../assets/typescript.png"
 
 const Hero = () => {
   const Techstack = [
@@ -32,6 +34,8 @@ const Hero = () => {
     { name: reactjs, href: "https://react.dev/" },
     { name: node, href: "https://nodejs.org/en" },
     { name: python, href: "https://python.org/en" },
+    { name: typescript, href: "https://www.typescriptlang.org/" },
+    { name: expo, href: "https://expo.dev/" },
     { name: tailwind, href: "https://tailwindcss.com/" },
   ];
 
